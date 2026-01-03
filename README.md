@@ -15,33 +15,31 @@
 
 <br/>
 
-<!-- Typing Animation Banner -->
-<a href="https://github.com/nhaico12345/thoitiet">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=667EEA&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=🌡️+Dự+báo+thời+tiết+chính+xác;🤖+Tích+hợp+AI+gợi+ý+trang+phục;📱+Đa+nền+tảng:+Android+•+iOS+•+Web" alt="Typing Animation"/>
-</a>
+<!-- Feature Highlights Banner -->
+<table>
+<tr>
+<td align="center">🌡️ <b>Dự báo thời tiết chính xác</b></td>
+<td align="center">🤖 <b>Tích hợp AI gợi ý trang phục</b></td>
+<td align="center">📱 <b>Đa nền tảng: Android • iOS • Web</b></td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 <!-- Main Badges with Weather Theme Colors -->
 <p>
   <img src="https://img.shields.io/badge/Flutter-3.9+-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
   <img src="https://img.shields.io/badge/Dart-3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
   <img src="https://img.shields.io/badge/Platform-Android%20•%20iOS%20•%20Web-00C853?style=for-the-badge" alt="Platform"/>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="License"/></a>
+  <img src="https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge" alt="License"/>
 </p>
 
-<!-- GitHub Stats Badges -->
+<!-- Project Stats Badges -->
 <p>
-  <a href="https://github.com/nhaico12345/thoitiet">
-    <img src="https://img.shields.io/github/stars/nhaico12345/thoitiet?style=flat-square&logo=github&color=yellow" alt="Stars"/>
-  </a>
-  <a href="https://github.com/nhaico12345/thoitiet/network/members">
-    <img src="https://img.shields.io/github/forks/nhaico12345/thoitiet?style=flat-square&logo=github&color=blue" alt="Forks"/>
-  </a>
-  <a href="https://github.com/nhaico12345/thoitiet/issues">
-    <img src="https://img.shields.io/github/issues/nhaico12345/thoitiet?style=flat-square&logo=github&color=red" alt="Issues"/>
-  </a>
-  <img src="https://img.shields.io/github/last-commit/nhaico12345/thoitiet?style=flat-square&logo=github&color=green" alt="Last Commit"/>
+  <img src="https://img.shields.io/badge/📁_Files-99+-667eea?style=flat-square" alt="Files"/>
+  <img src="https://img.shields.io/badge/📊_Lines-15K+-764ba2?style=flat-square" alt="Lines"/>
+  <img src="https://img.shields.io/badge/🧩_Widgets-12+-f093fb?style=flat-square" alt="Widgets"/>
+  <img src="https://img.shields.io/badge/⚙️_Services-10+-43e97b?style=flat-square" alt="Services"/>
 </p>
 
 <!-- Tech Stack Badges -->
@@ -98,8 +96,8 @@
 <div align="center">
 
 ```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/nhaico12345/thoitiet.git && cd thoitiet
+# 1️⃣ Clone the repository (thay URL bằng repository của bạn)
+git clone <https://github.com/nhaico12345/thoitiet-supperman> && cd sieuthoitiet
 
 # 2️⃣ Install dependencies
 flutter pub get
@@ -187,45 +185,37 @@ flutter build web --release
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/3d-fluency/94/artificial-intelligence.png" width="60"/>
-<br/><b>Groq AI</b>
+🤖<br/><b>Groq AI</b>
 <br/><sub>LLaMA 3.3 70B với<br/>4 fallback models</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/3d-fluency/94/temperature.png" width="60"/>
-<br/><b>14+ Chỉ Số</b>
+🌡️<br/><b>14+ Chỉ Số</b>
 <br/><sub>Nhiệt độ, UV, AQI,<br/>Độ ẩm, Gió...</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/3d-fluency/94/widget.png" width="60"/>
-<br/><b>Home Widget</b>
+📱<br/><b>Home Widget</b>
 <br/><sub>Widget màn hình<br/>chính Android</sub>
 </td>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/3d-fluency/94/calendar.png" width="60"/>
-<br/><b>Calendar Sync</b>
+📅<br/><b>Calendar Sync</b>
 <br/><sub>Tích hợp lịch<br/>thiết bị tự động</sub>
 </td>
 </tr>
 <tr>
 <td align="center">
-<img src="https://img.icons8.com/3d-fluency/94/clothes.png" width="60"/>
-<br/><b>OOTD AI</b>
+👕<br/><b>OOTD AI</b>
 <br/><sub>Gợi ý trang phục<br/>theo thời tiết</sub>
 </td>
 <td align="center">
-<img src="https://img.icons8.com/3d-fluency/94/graph.png" width="60"/>
-<br/><b>FL Chart</b>
+📈<br/><b>FL Chart</b>
 <br/><sub>Biểu đồ nhiệt độ<br/>tương tác đẹp</sub>
 </td>
 <td align="center">
-<img src="https://img.icons8.com/3d-fluency/94/bell.png" width="60"/>
-<br/><b>Smart Alerts</b>
+🔔<br/><b>Smart Alerts</b>
 <br/><sub>Cảnh báo thời tiết<br/>nguy hiểm</sub>
 </td>
 <td align="center">
-<img src="https://img.icons8.com/3d-fluency/94/share.png" width="60"/>
-<br/><b>Share Card</b>
+📤<br/><b>Share Card</b>
 <br/><sub>Chia sẻ ảnh thời<br/>tiết đẹp mắt</sub>
 </td>
 </tr>
@@ -319,22 +309,22 @@ flutter build web --release
 </td>
 <td align="center" width="33%">
 
-**📊 History Chart**
+**👕 Tủ Đồ & OOTD**
 
 ```
 ┌─────────────────────┐
-│  📈 Lịch sử         │
+│  👗 Virtual Wardrobe │
 │  ─────────────────  │
-│  32°│    ╭─╮        │
-│  30°│ ╭─╯  ╰─╮      │
-│  28°│╯       ╰─╮    │
-│  26°│          ╰──  │
-│     └───────────    │
-│      T2 T3 T4 T5 T6 │
+│  📸 Thêm trang phục │
+│                     │
+│  🤖 Gợi ý AI        │
+│     Dựa trên 28°C   │
+│     và trời nắng:   │
+│     • Áo phông      │
+│     • Quần short    │
+│     • Mũ chống nắng │
 │  ─────────────────  │
-│  📋 History List    │
-│  • 12/12 - 28°C     │
-│  • 11/12 - 26°C     │
+│  🔥 Firebase Sync   │
 └─────────────────────┘
 ```
 
@@ -1150,8 +1140,9 @@ sieuthoitiet/
 <summary><b>1️⃣ Clone Repository</b></summary>
 
 ```bash
-git clone https://github.com/nhaico12345/thoitiet.git
-cd thoitiet
+# Thay URL bằng repository của bạn
+git clone <YOUR_REPOSITORY_URL>
+cd sieuthoitiet
 ```
 
 </details>
