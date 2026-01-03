@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "793605618948",
+    "firebase_url": "https://dulieu-4b5f7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dulieu-4b5f7",
+    "storage_bucket": "dulieu-4b5f7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793605618948:android:1ffb3f220269e10e90e451",
+        "android_client_info": {
+          "package_name": "com.example.sieuthoitiet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoZwX7gydCvdHcgInIoDV4G_LEaJHYvV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Siêu Thời Tiết</string>
+    <string name="widget_small_description">Widget nhỏ hiển thị nhiệt độ và vị trí</string>
+    <string name="widget_medium_description">Widget vừa với dự báo 3 giờ</string>
+    <string name="widget_large_description">Widget lớn với dự báo 5 ngày</string>
+</resources>
