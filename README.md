@@ -27,7 +27,7 @@
   <img src="https://img.shields.io/badge/Flutter-3.9+-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter"/>
   <img src="https://img.shields.io/badge/Dart-3.0+-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart"/>
   <img src="https://img.shields.io/badge/Platform-Android%20•%20iOS%20•%20Web-00C853?style=for-the-badge" alt="Platform"/>
-  <img src="https://img.shields.io/badge/License-MIT-FFC107?style=for-the-badge" alt="License"/>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="License"/></a>
 </p>
 
 <!-- GitHub Stats Badges -->
@@ -75,7 +75,9 @@
   <a href="#-tính-năng-chi-tiết"><kbd>🎯 Tính Năng</kbd></a>&nbsp;&nbsp;
   <a href="#%EF%B8%8F-công-nghệ"><kbd>🛠️ Công Nghệ</kbd></a>&nbsp;&nbsp;
   <a href="#%EF%B8%8F-kiến-trúc"><kbd>🏗️ Kiến Trúc</kbd></a>&nbsp;&nbsp;
-  <a href="#-tác-giả"><kbd>👨‍💻 Tác Giả</kbd></a>
+  <a href="#-tác-giả"><kbd>👨‍💻 Tác Giả</kbd></a>&nbsp;&nbsp;
+  <a href="CONTRIBUTING.md"><kbd>🤝 Đóng Góp</kbd></a>&nbsp;&nbsp;
+  <a href="AUTHORS.md"><kbd>📜 Authors</kbd></a>
 </p>
 
 <br/>
