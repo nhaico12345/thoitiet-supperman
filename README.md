@@ -1140,8 +1140,7 @@ sieuthoitiet/
 <summary><b>1️⃣ Clone Repository</b></summary>
 
 ```bash
-# Thay URL bằng repository của bạn
-git clone <YOUR_REPOSITORY_URL>
+git clone <https://github.com/nhaico12345/thoitiet-supperman>
 cd sieuthoitiet
 ```
 
