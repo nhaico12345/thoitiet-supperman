@@ -60,7 +60,7 @@
 
 | # | Tên | GitHub | Đóng góp | Ngày |
 |:-:|:----|:-------|:---------|:-----|
-| 1 | **DANGIT (Trần Đình Đăng)** | [@nhaico12345](https://github.com/nhaico12345) | Tác giả chính, phát triển toàn bộ ứng dụng | 2024 |
+| 1 | **DANGIT (Trần Đình Đăng)** | [@nhaico12345](https://github.com/nhaico12345) | Tác giả chính, phát triển toàn bộ ứng dụng | 2026 |
 
 > 💡 *Muốn đóng góp? Xem hướng dẫn tại [CONTRIBUTING.md](CONTRIBUTING.md)*
 
@@ -100,6 +100,6 @@ Nếu bạn có câu hỏi hoặc góp ý, vui lòng:
 
 **Made with ❤️ in Vietnam 🇻🇳**
 
-*Copyright © 2024-2026 DANGIT (Trần Đình Đăng). All rights reserved.*
+*Copyright © 2025-2026 DANGIT (Trần Đình Đăng). All rights reserved.*
 
 </div>
