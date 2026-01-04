@@ -129,6 +129,6 @@ Nếu lỗ hổng được xác nhận hợp lệ:
 
 **Made with ❤️ and 🔐 in Vietnam 🇻🇳**
 
-*Copyright © 2024-2026 DANGIT (Trần Đình Đăng). All rights reserved.*
+*Copyright © 2025-2026 DANGIT (Trần Đình Đăng). All rights reserved.*
 
 </div>
