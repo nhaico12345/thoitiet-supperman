@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:permission_handler/permission_handler.dart';
 import '../widgets/weather_skeleton_widget.dart';
 import '../../../../shared/widgets/weather_refresh_indicator.dart';
 import '../../../../core/di/injection_container.dart';
@@ -38,11 +39,33 @@ class _HomePageState extends State<HomePage> {
     // Xin quyền vị trí và thông báo ngay khi mở app
     await deviceService.requestInitialPermissions();
 
-    // Sau khi cấp quyền xong, force refresh lấy dữ liệu thời tiết
-    if (mounted) {
-      _weatherBloc.add(const GetWeather(forceRefresh: true));
-      await deviceService.checkAndShowAutoStartDialog(context);
+    if (!mounted) return;
+
+    // Lấy trạng thái quyền vị trí ngay sau khi xin quyền
+    final locationPermission = await Permission.location.status;
+
+    if (!mounted) return;
+
+    // Force refresh lấy dữ liệu thời tiết
+    _weatherBloc.add(const GetWeather(forceRefresh: true));
+
+    // Hiển thị thông báo nếu quyền vị trí bị từ chối
+    if (locationPermission.isDenied || locationPermission.isPermanentlyDenied) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: const Text(
+            'Đang sử dụng vị trí mặc định. Hãy cấp quyền vị trí để có trải nghiệm tốt hơn.',
+          ),
+          action: SnackBarAction(
+            label: 'Cài đặt',
+            onPressed: () => openAppSettings(),
+          ),
+          duration: const Duration(seconds: 5),
+        ),
+      );
     }
+
+    await deviceService.checkAndShowAutoStartDialog(context);
   }
 
   @override

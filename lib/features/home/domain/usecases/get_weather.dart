@@ -30,22 +30,28 @@ class GetWeatherUseCase {
       );
     }
 
-    final currentLocationResult = await _locationRepository
-        .getCurrentLocation();
-    if (currentLocationResult is DataSuccess &&
-        currentLocationResult.data != null) {
-      final loc = currentLocationResult.data!;
-      return _weatherRepository.getWeather(
-        loc.latitude,
-        loc.longitude,
-        locationName: loc.name,
-      );
+    // Thử lấy vị trí hiện tại, fallback về vị trí mặc định nếu thất bại
+    try {
+      final currentLocationResult = await _locationRepository
+          .getCurrentLocation();
+      if (currentLocationResult is DataSuccess &&
+          currentLocationResult.data != null) {
+        final loc = currentLocationResult.data!;
+        return _weatherRepository.getWeather(
+          loc.latitude,
+          loc.longitude,
+          locationName: loc.name,
+        );
+      }
+    } catch (e) {
+      // khi quyền vị trí bị từ chối hoặc GPS không khả dụng
     }
 
+    // Fallback về vị trí mặc định khi không lấy được vị trí hiện tại
     return _weatherRepository.getWeather(
       21.0285,
       105.8542,
-      locationName: "Cẩm Xuyên",
+      locationName: "Cẩm Xuyên (mặc định)",
     );
   }
 }
